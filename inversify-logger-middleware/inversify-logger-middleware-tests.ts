@@ -1,4 +1,5 @@
-/// <reference path="./inversify-logger-middleware.d.ts" />
+import * as inversify from "inversify";
+import * as inversifyLoggerMiddleware from "inversify-logger-middleware";
 
 declare var kernel: inversify.interfaces.Kernel;
 
